@@ -4,11 +4,14 @@
 
 ## Usage
 
-Make sure you have [npx](https://www.npmjs.com/package/npx) or [yarn](https://yarnpkg.com/en/) installed (`npx` is shipped by default since NPM `5.2.0`)
+Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is shipped by default since NPM `5.2.0`)
 
-```bash
+```console
 npx create-mono-module <my-mono-module>
-# or
+```
+Or with [yarn](https://yarnpkg.com/en/):
+
+```console
 yarn create mono-module <my-mono-module>
 ```
 
@@ -23,8 +26,6 @@ Your Mono module is ready to be tested with [AVA](https://github.com/avajs/ava),
 ```bash
 npm test
 ```
-
-
 
 ## License
 
