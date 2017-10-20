@@ -5,9 +5,9 @@
 
 module.exports = function ({ conf }) {
 	// Set options default
-	const options = conf.mono.<%= moduleKey %> || {}
-	options.foo = options.foo || 'bar'
+	const options = conf.mono.<%= moduleKey %> = conf.mono.<%= moduleKey %> || {}
+	options.username = options.username || '<%= username %>'
 
 	// Expose foo property
-	module.exports.foo = options.foo
+	module.exports.hello = () => `Hello ${options.username}`
 }

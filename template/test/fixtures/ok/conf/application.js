@@ -5,9 +5,6 @@ module.exports = {
 		modules: [
 			// Absolute path to module directory (development)
 			join(__dirname, '../../../..')
-		],
-		<%= moduleKey %>: {
-			foo: 'bar'
-		}
+		]
 	}
 }

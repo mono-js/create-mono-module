@@ -39,12 +39,12 @@ module.exports = {
 
 ## Usage
 
-In your `src/` files, you can access `x` like this:
+In your `src/` files of your Mono project, you can access `hello` like this:
 
 ```js
-const { x } = require('<%= name %>')
+const { hello } = require('<%= name %>')
 
-x.method(...)
+hello()
 ```
 
 ## Development / Contribution
