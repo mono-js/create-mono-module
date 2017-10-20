@@ -6,12 +6,12 @@
 
 Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is shipped by default since NPM `5.2.0`)
 
-```console
+```
 npx create-mono-module <my-mono-module>
 ```
 Or with [yarn](https://yarnpkg.com/en/):
 
-```console
+```
 yarn create mono-module <my-mono-module>
 ```
 
