@@ -22,7 +22,8 @@ module.exports = {
 		}
 	},
   move: {
-    'gitignore': '.gitignore'
+    'gitignore': '.gitignore',
+    'pkg.json': 'package.json'
   },
   showTip: true,
   gitInit: true,
