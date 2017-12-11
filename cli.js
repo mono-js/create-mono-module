@@ -2,6 +2,8 @@
 const path = require('path')
 const sao = require('sao')
 const minimist = require('minimist')
+const updateNotifier = require('update-notifier')
+const pkg = require('./package.json')
 
 const argv = minimist(process.argv.slice(2))
 // In a custom directory or current directory
@@ -17,3 +19,6 @@ sao({
   console.error(err.name === 'SAOError' ? err.message : err.stack)
   process.exit(1)
 })
+
+// Update notifier
+updateNotifier({ pkg }).notify()
