@@ -14,7 +14,8 @@ console.log(`> Generating Mono module in ${targetPath}`)
 // See https://sao.js.org/#/advanced/standalone-cli
 sao({
   template: __dirname,
-  targetPath
+	targetPath,
+	updateNotify: true
 }).catch(err => {
   console.error(err.name === 'SAOError' ? err.message : err.stack)
   process.exit(1)
