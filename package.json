@@ -17,10 +17,10 @@
     "test": "ava"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "minimist": "^1.2.0",
-    "sao": "^0.22.10",
-    "superb": "^2.0.0"
+    "lodash": "4.17.5",
+    "minimist": "1.2.0",
+    "sao": "0.22.14",
+    "superb": "2.0.0"
   },
   "keywords": [
     "mono",
@@ -28,6 +28,6 @@
     "create-mono-module"
   ],
   "devDependencies": {
-    "ava": "^0.24.0"
+    "ava": "0.24.0"
   }
 }
