@@ -18,11 +18,11 @@ A [Mono](https://github.com/terrajs/mono) module can have multiple files inside 
 
 `index.js`
 
-Should export a method (can be `async`) and receives as argument: `{ log, conf, server, app }`
+Should export a method (can be `async`) and receives as argument: `{ log, conf, server, app, hook }`
 
 `init.js`
 
-File loaded when Mono init all files, same parameter as Mono init files. Should export a method (can be `async`) and receives as argument: `{ log, conf, server, app }`
+File loaded when Mono init all files, same parameter as Mono init files. Should export a method (can be `async`) and receives as argument: `{ log, conf, server, app, hook }`
 
 `routes.js`
 
