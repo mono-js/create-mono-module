@@ -8,7 +8,7 @@
 
 See https://github.com/terrajs/mono-push/blob/master/lib/init.js
 
-module.exports = function ({ log, conf, appDir, server, app }) {
+module.exports = function ({ log, conf, appDir, server, app, hook }) {
 
 }
 
