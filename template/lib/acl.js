@@ -8,7 +8,7 @@
 
 See https://github.com/terrajs/imperium for documentation
 
-const { imperium } = require('@terrajs/mono')
+const { imperium } = require('mono-core')
 
 imperium.role('admin', (req) => !!req.session.admin)
 imperium.role('user', async (req) => {
